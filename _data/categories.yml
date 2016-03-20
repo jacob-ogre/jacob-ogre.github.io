@@ -1,0 +1,11 @@
+- slug: projects
+  name: Projects
+
+- slug: python
+  name: Python
+
+- slug: r
+  name: R
+
+- slug: blog
+  name: Blog

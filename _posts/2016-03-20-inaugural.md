@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An inaugural post
-categories: other
+tags: [other]
 ---
 
 As with any such endeavor, we need an inaugural post to test the system out. Because this is all written in [markdown](https://daringfireball.net/projects/markdown/), I need to test out a few basic features.
