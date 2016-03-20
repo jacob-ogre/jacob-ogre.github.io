@@ -1,26 +1,32 @@
-baseurl: /tufte-jekyll 
-title: Tufte
-subtitle: Content-centric blogging
-author: clay harmon
+url: http://jacob-ogre.github.io
+baseurl: /jacob-ogre.github.io
+title: Jacob-ogre's Musings
+subtitle: (Until I find a good alternative to 'musings')
+author: Jacob Malcom
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
+description: Natural history, coding, and related
 name: tufte
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
+# permalink: /blog/:year/:month/:day/:title
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+highlighter: rouge
+permalink: /:title/
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
 post:
   template: _post.txt
   extension: md
 page:
   template: _page.txt
   extension: md
+
 editor: gvim
 git:
   branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/clayh53.github.com/
