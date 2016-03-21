@@ -4,7 +4,7 @@ title: Editing audio for iNaturalist documentation
 tags: [audio]
 ---
 
-We can document many species using [Soundcloud](http://soundcloud.com) integration. And just like having clear photos for visual identification, we would like to have clear audio for identification.  But I haven't been able to find any good, simple explanations about how to go from a raw recording in the field to one ideal for confirming the identity of a species in the observation. This is an attempt at such a guide.
+We can document many species using the [Soundcloud](http://soundcloud.com) integration with [iNaturalist](http://www.inaturalist.org). And just like having clear photos for visual identification, we would like to have clear audio for identification.  But I haven't been able to find any good, simple explanations about how to go from a raw recording in the field to one ideal for confirming the identity of a species in the observation. This is an attempt at such a guide.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ We can document many species using [Soundcloud](http://soundcloud.com) integrati
 
 * _Audio editing software._ There are lots of options, but I've been using [Audacity](http://www.audacityteam.org/) because it's open source, free, and appears to work well. There's a separate download required for importing MP4 files, but Audacity will prompt you to get the download.
 
-* _Soundcloud account._ You'll need a [Soundcloud](http://soundcloud.com) to link one or more recordings to an observation. An account is free up to 180 minutes of uploaded audio.
+* _Soundcloud account._ You'll need a [Soundcloud](http://soundcloud.com) account to link one or more recordings to an observation. An account is free for up to 180 minutes of uploaded audio.
 
 ## A walk-through
 
@@ -140,6 +140,6 @@ The last step is linking the Soundcloud files to the observation. In this case, 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig22.png)
 *After checking the appropriate boxes be sure to save the edits!*
 
-**Now the information needed to confirm an observation - a cleaned audio recording - is available.**
+**Now the information needed to confirm an observation - a cleaned audio recording - [is available](http://www.inaturalist.org/observations/2810553).**
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig23.png)
