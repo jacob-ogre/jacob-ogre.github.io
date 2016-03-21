@@ -4,11 +4,9 @@ title: Editing audio for iNaturalist documentation
 tags: [audio]
 ---
 
-# Introduction
-
 We can document many species using [Soundcloud](http://soundcloud.com) integration. And just like having clear photos for visual identification, we would like to have clear audio for identification.  But I haven't been able to find any good, simple explanations about how to go from a raw recording in the field to one ideal for confirming the identity of a species in the observation. This is an attempt at such a guide.
 
-# Prerequisites
+## Prerequisites
 
 * _A recording._ Presumably, you've recorded identifiable sound(s) from an animal. The iPhone I use records in MP4 (.M4P) format
 
@@ -18,11 +16,11 @@ We can document many species using [Soundcloud](http://soundcloud.com) integrati
 
 * _Soundcloud account._ You'll need a [Soundcloud](http://soundcloud.com) to link one or more recordings to an observation. An account is free up to 180 minutes of uploaded audio.
 
-# A walk-through
+## A walk-through
 
 For this walk-through I'll be using [this recording](https://soundcloud.com/jacob-ogre/wbnu-20mar2016) of some [White-breasted Nuthatches](https://www.allaboutbirds.org/guide/White-breasted_Nuthatch/id) calling. Throughout we use the formatting `Menu -> Menu Item` or `Keyboard Shortcut` to describe commands.
 
-## Part 1: Using the waveform
+### Part 1: Using the waveform
 
 To start, use the `File -> Import` command to get the recording into Audacity. On import you should see something like this:
 
@@ -75,7 +73,7 @@ and we can use the cut command (`Cmd + X`) to just remove them:
 
 ----
 
-## Part 2: Using the spectrogram
+### Part 2: Using the spectrogram
 
 This is about as far as I find the waveform useful. Now we want to switch to the _spectrogram_ view to see the frequencies of the background noise and the frequencies of the bird calls. To get there, choose the drop-down near the upper-left of the file viewing sub-window...
 
@@ -119,7 +117,7 @@ Last but not least, we need to export the modified file under a new file name us
 
 ----
 
-# Uploading and linking
+## Uploading and linking
 
 Now that we have a cleaned file (and the original; see below), we can upload to Soundcloud and link the files to an observation. The download interface is quite clean:
 
