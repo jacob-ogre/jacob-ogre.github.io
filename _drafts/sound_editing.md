@@ -1,0 +1,118 @@
+---
+layout: post
+title: Editing audio for iNaturalist documentation
+tags: [audio]
+---
+
+# Introduction
+
+We can document many species using [Soundcloud](http://soundcloud.com) integration. And just like having clear photos for visual identification, we would like to have clear audio for identification.  But I haven't been able to find any good, simple explanations about how to go from a raw recording in the field to one ideal for confirming the identity of a species in the observation. This is an attempt at such a guide.
+
+# Prerequisites
+
+* _A recording._ Presumably, you've recorded identifiable sound(s) from an animal. The iPhone I use records in MP4 (.M4P) format
+
+  - _Microphones can help._ I've recently gotten a [Rode VideoMic shotgun microphone](http://www.amazon.com/gp/product/B018KIJGU8?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) and am mostly really happy. It occasionally produces bad background noises, but I think that's because of the phone case interfering with a good plug-in.
+
+* _Audio editing software._ There are lots of options, but I've been using [Audacity](http://www.audacityteam.org/) because it's open source, free, and appears to work well. There's a separate download required for importing MP4 files, but Audacity will prompt you to get the download.
+
+* _Soundcloud account._ You'll need a [Soundcloud](http://soundcloud.com) to link one or more recordings to an observation. An account is free up to 180 minutes of uploaded audio.
+
+# A walk-through
+
+For this walk-through I'll be using [this recording](http://soundcloud.com/) of some [White-breasted Nuthatches](https://www.allaboutbirds.org/guide/White-breasted_Nuthatch/id) calling. Throughout we use the formatting `Menu -> Menu Item` or `Keyboard Shortcut` to describe commands.
+
+## Part 1: Using the waveform
+
+To start, use the `File -> Import` command to get the recording into Audacity. On import you should see something like this:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig1.png)
+*The basic interface of Audacity after importing the recording.*
+
+The _waveform_ representation of the recording looks pretty non-descript, but we can zoom in by placing the cursor over the scale bar on the left of the image (which the shows a magnifying glass with a +) and clicking a few times:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig2.png)
+*The basic interface of Audacity after zooming in on the waveform.*
+
+Now we can listen to the recording by clicking the play button or by pressing the `spacebar`. As the recording plays we can relate sounds to the waveform, with louder sounds at peaks, and background noise filling the center band.
+
+One shortcoming you may witness is that the playback volume is probably really quiet. To solve that problem, we can use the `Effect -> Normalize` command:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig3.png)
+
+I've been normalizing to -0.05 dB:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig4.png)
+
+but you should try different options (and be ready to turn the volume down).
+
+The first part of this recording has few or no bird calls, but a big noise spike:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig5.png)
+*We should just get rid of this part of the recording.*
+
+We can select the part of the recording to remove (dark gray), then use `Edit -> Cut` or `Cmd + X` to delete it.
+
+The waveform highlights some bad background sounds - those big peaks - still exist, and that we would like to tamp down:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig6.png)
+*The big spike is gone, but there are still too many noise peaks.*
+
+Here we can use `Effect -> Click Removal` to wipe out the peaks. You may have to play with the settings a bit - and be prepared to `Edit - Undo` or `Cmd + Z` a few times - but you should end up with fewer clicks:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig7.png)
+*Now this is looking and sounding a bit better.*
+
+Some isolate spikes are still in the waveform, but not near bird notes:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig8.png)
+*Still some spikes between bird calls...*
+
+and we can use the cut command (`Cmd + X`) to just remove them:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig9.png)
+*...but these types of sections can just be snipped out.*
+
+----
+
+## Part 2: Using the spectrogram
+
+This is about as far as I find the waveform useful. Now we want to switch to the _spectrogram_ view to see the frequencies of the background noise and the frequencies of the bird calls. To get there, choose the drop-down near the upper-left of the file viewing sub-window...
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig10.png)
+*It took me a while to discover this.*
+
+...and select `Spectrogram`...
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig11.png)
+
+...which changes how we see the recording:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig12.png)
+*The spectrogram is a rather different view than the waveform.*
+
+Now we can see the nuthatch call notes as intense white patches from 1.5-3kHz (left scale). Some low-frequency spikes are visible along the bottom, and the general noise of the recording is all of the pink in the background. We can filter out the noise at frequencies higher and lower than calls to increase the intensity of the calls. The `Effect -> AUFilter` tool might work,
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig13.png)
+*This is one option.*
+
+if you know what you're doing...but I don't. Instead, I've been using `Effect -> AUHipass`
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig14.png)
+
+to filter out the low-frequency noise, i.e., the high frequency sounds pass through. Conversely, we can use `Effect -> AULowpass`
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig15.png)
+
+to filter out the high-frequency noise. A complement to these is `Effect -> AUBandpass`, which allows keeping a band of frequencies.
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig16.png)
+
+After applying different filters, we should end up with a spectrogram that looks something like this:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig17.png)
+*Now we can much more clearly see and hear the nuthatches!*
+
+Last but not least, we need to export the modified file under a new file name using `File -> Export Audio...`:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig18.png)

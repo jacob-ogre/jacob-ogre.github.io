@@ -1,3 +1,3 @@
-# JuanOnSoftware
+# Jacob-ogre's Musings
 
-http://juanonsoftware.github.io
+http://jacob-ogre.github.io
