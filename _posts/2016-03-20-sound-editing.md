@@ -139,11 +139,13 @@ Also be sure to edit the 'Metadata' tab to adjust the copyright as you see fit. 
 Now that it's uploaded, the clean file can be found [here](https://soundcloud.com/jacob-ogre/wbnu-20mar2016-clean).
 
 -----------------------------------------------------------------------------------------------
+
 _Optional ?_
 
 I previously suggested (below) that it might be worth uploading both the original and the cleaned versions of files. [iNaturalist user @aredoubles](http://www.inaturalist.org/observations/aredoubles) noted that may not be necessary because we're not adjusting the tempo or frequency of the calls / songs. That's true, but I would add one caveat. One Audacity tool I didn't mention above, but have used, is `Noise Reduction`, which can affect the focal call / song. If `Noise Reduction`is used for bacground noise that occurs in the same frequency band as the target call / song then it might be worht uploading the original, too.
 
-~__Note:__ Up until now I have been uploading just the best version of the recording. But as I've been writing this post I realized that it's probably better to include the clean version and the original. The primary reason is that I'm a novice at sound editing, and I don't know if I'm inadvertently modifying some part of the sound that shouldn't be modified. By placing the original in the record, someone with a lot more knowledge might be able to get a better recording that can be used in some sort of analysis, e.g., about bird song evolution.~
+<del>__Note:__ Up until now I have been uploading just the best version of the recording. But as I've been writing this post I realized that it's probably better to include the clean version and the original. The primary reason is that I'm a novice at sound editing, and I don't know if I'm inadvertently modifying some part of the sound that shouldn't be modified. By placing the original in the record, someone with a lot more knowledge might be able to get a better recording that can be used in some sort of analysis, e.g., about bird song evolution.</del>
+
 -----------------------------------------------------------------------------------------------
 
 The last step is linking the Soundcloud files to the observation. In this case, I created a record using the iPhone app right after I made the recording. The recordings (original and clean) are available from the web interface, in the __Add media__ box in the upper-right corner of the page:
