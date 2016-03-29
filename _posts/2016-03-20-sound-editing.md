@@ -61,7 +61,7 @@ Here we can use `Effect -> Click Removal` to wipe out the peaks. You may have to
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig7.png)
 *Now this is looking and sounding a bit better.*
 
-Some isolate spikes are still in the waveform, but not near bird notes:
+Some isolated spikes are still in the waveform, but not near bird notes:
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig8.png)
 *Still some spikes between bird calls...*
@@ -84,7 +84,7 @@ This is about as far as I find the waveform useful. Now we want to switch to the
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig11.png)
 
-...which changes how we see the recording:
+...which changes how the recording is shown:
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig12.png)
 *The spectrogram is a rather different view than the waveform.*
@@ -98,13 +98,18 @@ if you know what you're doing...but I don't. Instead, I've been using `Effect ->
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig14.png)
 
-to filter out the low-frequency noise, i.e., the high frequency sounds pass through. Conversely, we can use `Effect -> AULowpass`
+to filter out the low-frequency noise, i.e., the high frequency sounds pass through. After setting the dot to a frequency below the low-end frequency of the call / song you want to keep, you can press 'Apply' multiple times to chip away at the noise from the bottom. Conversely, we can use `Effect -> AULowpass`
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig15.png)
 
-to filter out the high-frequency noise. A complement to these is `Effect -> AUBandpass`, which allows keeping a band of frequencies.
+to filter out the high-frequency noise. As with HiPass, you can 'Apply' multiple times to chip away, but from the high end. A complement to these is `Effect -> AUBandpass`, which allows keeping a band of frequencies.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig16.png)
+
+Last but not least there is the `AUGraphicEQ`, which, as the name suggests, provides a graphic equalizer for targeting particular frequency bands for amplification or suppression:
+
+![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig16b.png)
+_The graphic equalizer shown here - which I didn't use for the nuthatch recording - is set for suppressing a band of noise in the 630-1200 Hz range._
 
 After applying different filters, we should end up with a spectrogram that looks something like this:
 
@@ -133,7 +138,13 @@ Also be sure to edit the 'Metadata' tab to adjust the copyright as you see fit. 
 
 Now that it's uploaded, the clean file can be found [here](https://soundcloud.com/jacob-ogre/wbnu-20mar2016-clean).
 
-__Note:__ Up until now I have been uploading just the best version of the recording. But as I've been writing this post I realized that it's probably better to include the clean version and the original. The primary reason is that I'm a novice at sound editing, and I don't know if I'm inadvertently modifying some part of the sound that shouldn't be modified. By placing the original in the record, someone with a lot more knowledge might be able to get a better recording that can be used in some sort of analysis, e.g., about bird song evolution.
+-----------------------------------------------------------------------------------------------
+_Optional ?_
+
+I previously suggested (below) that it might be worth uploading both the original and the cleaned versions of files. [iNaturalist user @aredoubles](http://www.inaturalist.org/observations/aredoubles) noted that may not be necessary because we're not adjusting the tempo or frequency of the calls / songs. That's true, but I would add one caveat. One Audacity tool I didn't mention above, but have used, is `Noise Reduction`, which can affect the focal call / song. If `Noise Reduction`is used for bacground noise that occurs in the same frequency band as the target call / song then it might be worht uploading the original, too.
+
+<del>__Note:__ Up until now I have been uploading just the best version of the recording. But as I've been writing this post I realized that it's probably better to include the clean version and the original. The primary reason is that I'm a novice at sound editing, and I don't know if I'm inadvertently modifying some part of the sound that shouldn't be modified. By placing the original in the record, someone with a lot more knowledge might be able to get a better recording that can be used in some sort of analysis, e.g., about bird song evolution.</del>
+-----------------------------------------------------------------------------------------------
 
 The last step is linking the Soundcloud files to the observation. In this case, I created a record using the iPhone app right after I made the recording. The recordings (original and clean) are available from the web interface, in the __Add media__ box in the upper-right corner of the page:
 
@@ -143,3 +154,9 @@ The last step is linking the Soundcloud files to the observation. In this case, 
 **Now the information needed to confirm an observation - a cleaned audio recording - [is available](http://www.inaturalist.org/observations/2810553).**
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig23.png)
+
+----
+**Upate 29 Mar 2016**
+
+Added some clarifying text, an image of the graphic equalizer tool, and updated the note about uploading the original and clean versions of a recording. Thanks @aredoubles for the feedback!
+
