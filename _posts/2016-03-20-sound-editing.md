@@ -155,6 +155,10 @@ The last step is linking the Soundcloud files to the observation. In this case, 
 
 ![_config.yml]({{ site.baseurl }}/images/posts/sound_editing/fig23.png)
 
+**Comments?**
+
+Until I get commenting set up here, please leave comments at [this iNaturalist entry](http://www.inaturalist.org/journal/jacobogre/5785-cleaning-up-audio-for-ids). Thanks!
+
 ----
 **Upate 29 Mar 2016**
 
