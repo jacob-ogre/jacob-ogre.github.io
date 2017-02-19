@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A quick review of recent papers, 2017-02-19
-tags: [papers,science]
+tags: [papers],[science]
 ---
 
 I subscribe to RSS feeds for dozens of journals and (usually) review those feeds
