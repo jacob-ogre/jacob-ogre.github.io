@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A quick review of recent papers, 2017-02-19
-tags: [papers,science]
+tags: [papers]
 ---
 
 I subscribe to RSS feeds for dozens of journals and (usually) review those feeds
@@ -26,6 +26,8 @@ please excuse any errors or misunderstandings.
 In this initial post I will just highlight two papers as a test...
 
 ## Papers
+
+----
 
 ### Retrospective Analysis of Heavy Metal Contamination in Rhode Island Based on Old and New Herbarium Specimens
 
@@ -63,7 +65,18 @@ a ways off, but this strikes me as really cool.
 
 ----
 
+### Policy impacts of ecosystem services knowledge
 
+__URL__ [http://www.pnas.org/content/113/7/1760](http://www.pnas.org/content/113/7/1760) (OA)
 
+__Summary__ The authors evaluate the factors that affect the extent to which 
+ecosystem services research shapes policy. The find that work with greater
+legitimacy - in terms of considering input from different stakeholders - has
+the biggest effect.
+
+__Comment__ This ia a paper from early 2016, but came back up because the
+authors are presenting at the National Academy of Sciences meeting this week. 
+
+----
 
 
