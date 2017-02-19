@@ -140,9 +140,13 @@ Now that it's uploaded, the clean file can be found [here](https://soundcloud.co
 
 -----------------------------------------------------------------------------------------------
 
-_Optional ?_
+*_Optional ?_*
 
-I previously suggested (below) that it might be worth uploading both the original and the cleaned versions of files. [iNaturalist user @aredoubles](http://www.inaturalist.org/observations/aredoubles) noted that may not be necessary because we're not adjusting the tempo or frequency of the calls / songs. That's true, but I would add one caveat. One Audacity tool I didn't mention above, but have used, is `Noise Reduction`, which can affect the focal call / song. If `Noise Reduction`is used for bacground noise that occurs in the same frequency band as the target call / song then it might be worht uploading the original, too.
+I previously suggested (below) that it might be worth uploading both the original and the cleaned versions of files. [iNaturalist user @aredoubles](http://www.inaturalist.org/observations/aredoubles) noted that may not be necessary because we're not adjusting the tempo or frequency of the calls / songs. That's true, but I would add one caveat. One Audacity tool I didn't mention above, but have used, is `Noise Reduction`, which can affect the focal call / song. If `Noise Reduction`is used for background noise that occurs in the same frequency band as the target call / song then it might be worht uploading the original, too.
+
+_Update 01 Apr 2016_
+
+I just saw a talk at the [2016 ASB meeting]() looking at bird calls across a background noise gradient. The results suggest a shift in call frequency in the face of anthropogenic noise. One limitation of the study was that it is restricted to one county in South Carolina. If we include the originals with the clean calls, then these recordings could be used in broad-scale analyses of these sorts of questions of the "soft" effects of human encroachment.
 
 <del>__Note:__ Up until now I have been uploading just the best version of the recording. But as I've been writing this post I realized that it's probably better to include the clean version and the original. The primary reason is that I'm a novice at sound editing, and I don't know if I'm inadvertently modifying some part of the sound that shouldn't be modified. By placing the original in the record, someone with a lot more knowledge might be able to get a better recording that can be used in some sort of analysis, e.g., about bird song evolution.</del>
 
