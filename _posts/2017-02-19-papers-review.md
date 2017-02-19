@@ -4,8 +4,6 @@ title: A quick review of recent papers, 2017-02-19
 tags: [papers,science]
 ---
 
-## Introduction
-
 I subscribe to RSS feeds for dozens of journals and (usually) review those feeds
 every morning and every evening. There is usually at least one paper each day
 that I share with colleagues via email. But I miss people who might find a paper
@@ -31,7 +29,7 @@ In this initial post I will just highlight two papers as a test...
 
 ### Retrospective Analysis of Heavy Metal Contamination in Rhode Island Based on Old and New Herbarium Specimens
 
-__URL__ http://www.bioone.org/doi/10.3732/apps.1600108 (OA)
+__URL__ [http://www.bioone.org/doi/10.3732/apps.1600108](http://www.bioone.org/doi/10.3732/apps.1600108) (OA)
 
 __Summary__ The authors compare the concentrations of lead, copper, and zinc in
 historical herbarium specimens (1846 - 1916) to levels in contemporary specimens.
@@ -52,7 +50,7 @@ time-frame.
 
 ### 3D-printed eagle eye: Compound microlens system for foveated imaging
 
-__URL__ http://advances.sciencemag.org/content/3/2/e1602655?rss=1 (OA)
+__URL__ [http://advances.sciencemag.org/content/3/2/e1602655?rss=1](http://advances.sciencemag.org/content/3/2/e1602655?rss=1) (OA)
 
 __Summary__ The authors report printing tiny - ca. 100 micron diameter - lenses
 of various focal lengths. When placed on an imaging sensor, these microlenses
