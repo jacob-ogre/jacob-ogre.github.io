@@ -25,6 +25,8 @@ a link to the full text;
 Most of the time, I will have _not_ read the full paper before posting, so 
 please excuse any errors or misunderstandings.
 
+In this initial post I will just highlight two papers as a test...
+
 # Papers
 
 ## Retrospective Analysis of Heavy Metal Contamination in Rhode Island Based on Old and New Herbarium Specimens
