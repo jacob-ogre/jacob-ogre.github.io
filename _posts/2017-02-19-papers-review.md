@@ -4,7 +4,7 @@ title: A quick review of recent papers, 2017-02-19
 tags: [papers,science]
 ---
 
-# Introduction
+## Introduction
 
 I subscribe to RSS feeds for dozens of journals and (usually) review those feeds
 every morning and every evening. There is usually at least one paper each day
@@ -27,9 +27,9 @@ please excuse any errors or misunderstandings.
 
 In this initial post I will just highlight two papers as a test...
 
-# Papers
+## Papers
 
-## Retrospective Analysis of Heavy Metal Contamination in Rhode Island Based on Old and New Herbarium Specimens
+### Retrospective Analysis of Heavy Metal Contamination in Rhode Island Based on Old and New Herbarium Specimens
 
 __URL__ http://www.bioone.org/doi/10.3732/apps.1600108 (OA)
 
@@ -50,7 +50,7 @@ time-frame.
 
 ----
 
-## 3D-printed eagle eye: Compound microlens system for foveated imaging
+### 3D-printed eagle eye: Compound microlens system for foveated imaging
 
 __URL__ http://advances.sciencemag.org/content/3/2/e1602655?rss=1 (OA)
 
